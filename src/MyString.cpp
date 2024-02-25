@@ -154,13 +154,8 @@ MyString& MyString::operator=(MyString&& other) {
         }
 
         this->arraySize = other.arraySize;
-        this->charArray = new char[this->arraySize];
+        this->charArray = other.charArray;
 
-        for (int i = 0; i < this->arraySize; i++) {
-            this->charArray[i] = other.charArray[i];
-        }
-
-        delete [] other.charArray;
         other.charArray = nullptr;
         other.arraySize = 0;
     }

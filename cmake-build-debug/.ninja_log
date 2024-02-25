@@ -63,3 +63,11 @@
 302	370	7302332626922249	stringClass.exe	31ed277ffca929ef
 1	305	7302332768936549	CMakeFiles/stringClass.dir/src/main.cpp.obj	7e4e6e6327b92a82
 305	373	7302332769584381	stringClass.exe	31ed277ffca929ef
+1	320	7305620550422816	CMakeFiles/stringClass.dir/src/main.cpp.obj	7e4e6e6327b92a82
+4	377	7305620550988875	CMakeFiles/stringClass.dir/src/MyString.cpp.obj	f50fbd178f2a106a
+377	456	7305620551766051	stringClass.exe	31ed277ffca929ef
+1	319	7305621289366188	CMakeFiles/stringClass.dir/src/main.cpp.obj	7e4e6e6327b92a82
+319	397	7305621290125671	stringClass.exe	31ed277ffca929ef
+4	840	7305927496562690	CMakeFiles/stringClass.dir/src/main.cpp.obj	7e4e6e6327b92a82
+74	848	7305927496634242	CMakeFiles/stringClass.dir/src/MyString.cpp.obj	f50fbd178f2a106a
+848	1149	7305927499608991	stringClass.exe	31ed277ffca929ef
