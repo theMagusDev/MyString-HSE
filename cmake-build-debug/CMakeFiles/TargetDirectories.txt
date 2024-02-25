@@ -1,0 +1,3 @@
+D:/Projects/C++/stringClass/cmake-build-debug/CMakeFiles/stringClass.dir
+D:/Projects/C++/stringClass/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Projects/C++/stringClass/cmake-build-debug/CMakeFiles/rebuild_cache.dir
