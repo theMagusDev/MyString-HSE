@@ -9,7 +9,6 @@ class MyString {
  private:
     char * charArray;
     size_t arraySize;
-    size_t getStrLength(const char * str);
 
  public:
     explicit MyString(const char * str = nullptr);

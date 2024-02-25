@@ -6,6 +6,8 @@
 
 #define INITIAL_INPUT_BUFFER_SIZE 10
 
+size_t getStrLength(const char * str);
+
 MyString::MyString(const char *str) {
     if (str == nullptr) {
         this->arraySize = 0;
@@ -71,15 +73,6 @@ size_t MyString::length() {
 
 char * MyString::get() {
     return this->charArray;
-}
-
-size_t MyString::getStrLength(const char * str) {
-    int i = 0;
-    while (str[i] != '\0') {
-        i++;
-    }
-
-    return i;
 }
 
 MyString MyString::operator+(const MyString& other) const {
@@ -433,4 +426,13 @@ std::ostream& operator<<(std::ostream& out, const MyString& myStr) {
     }
 
     return out;
+}
+
+size_t getStrLength(const char * str) {
+    int i = 0;
+    while (str[i] != '\0') {
+        i++;
+    }
+
+    return i;
 }
