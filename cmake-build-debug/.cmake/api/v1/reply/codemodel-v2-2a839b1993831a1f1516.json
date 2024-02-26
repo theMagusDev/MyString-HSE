@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Projects/C++/stringClass/cmake-build-debug",
-		"source" : "D:/Projects/C++/stringClass"
+		"build" : "D:/Projects/C++/MyString-HSE/cmake-build-debug",
+		"source" : "D:/Projects/C++/MyString-HSE"
 	},
 	"version" : 
 	{

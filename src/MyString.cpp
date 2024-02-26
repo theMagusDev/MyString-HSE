@@ -352,7 +352,7 @@ MyString MyString::operator!() const {
 
 char MyString::operator[](int index) const {
     if (index >= this->arraySize || index < 0) {
-        return '\0';
+        throw std::exception();
     }
     return this->charArray[index];
 }
